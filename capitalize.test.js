@@ -5,5 +5,5 @@ test('Capitalized Letter', () => {
 });
 
 test('Uncapitalized', () => {
-    expect('String').not.toBe('string');
+    expect(capitalize('String')).not.toBe('string');
 });
